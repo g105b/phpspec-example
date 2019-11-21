@@ -5,7 +5,7 @@ class Markdown {
 
 		foreach(explode("\n", $markdown) as $line) {
 			if(ctype_alnum($line[0])) {
-				$html = "<p>$line</p>";
+				$html = "<p>$line</div>";
 			}
 		}
 
